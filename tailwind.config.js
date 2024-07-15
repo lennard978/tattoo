@@ -7,8 +7,7 @@ export default {
         header: "url('/images/tattoo22.jpg')",
       },
       fontFamily: {
-        Great: ["Great", "sans-serif"],
-        Shadows: ["Shadows", "sans-serif"],
+        OpenSans: ["OpenSans", "sans-serif"],
       },
     },
   },

@@ -16,7 +16,7 @@ export const Gallery = ({ selected, setSelected }) => {
 	// }
 	return (
 		<div>
-			<div className="flex items-center justify-center py-4 md:py-8 flex-wrap text-black">
+			<div className="flex items-center justify-center py-4 md:py-8 flex-wrap text-black font-OpenSans">
 				<h1 className="text-zinc-900 text-center p-4 text-4xl">
 					Gallery
 				</h1>

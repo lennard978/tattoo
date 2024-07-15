@@ -18,13 +18,13 @@ export const Accordion = ({ i, expanded, setExpanded, title, description }) => {
 	return (
 		<div className=" flex flex-col justify-between px-2 py-4 cursor-pointer border-[1px] rounded-md border-black mx-2 mb-2">
 			<motion.div initial={false} onClick={combine}>
-				<div className=" flex">
-					<div className=" justify-center flex items-center mx-2 ">
+				<div className=" flex justify-center">
+					{/* <div className=" justify-center flex items-center mx-2 ">
 						<motion.span variants={defaultRotate} animate={rot}>
 							<FaPlus color="black" />
 						</motion.span>
-					</div>
-					<h1 className="uppercase">{title}</h1>
+					</div> */}
+					<h1 className="uppercase font-semibold font-OpenSans">{title}</h1>
 				</div>
 			</motion.div>
 			<AnimatePresence initial={false}>
@@ -38,9 +38,11 @@ export const Accordion = ({ i, expanded, setExpanded, title, description }) => {
 							collapsed: { opacity: 0, height: 0 },
 						}}
 						transition={{ duration: 0.4, ease: [0.04, 0.62, 0.23, 0.98] }}
-						// style={{ backgroundColor: "white", padding: "0 2rem" }}
+					// style={{ backgroundColor: "white", padding: "0 2rem" }}
 					>
-						<h1 className="py-4 px-2">{description}</h1>
+						<div >{description.map((item) => (
+							<h1 className="py-4 px-2 text-left font-OpenSans" key={item.text}>{item.text}</h1>
+						))}</div>
 					</motion.section>
 				)}
 			</AnimatePresence>
