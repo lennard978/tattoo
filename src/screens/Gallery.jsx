@@ -8,6 +8,9 @@ const list = [
 	{ category: "shoulder", image: Images.image4 },
 	{ category: "shoulder", image: Images.image5 },
 	{ category: "shoulder", image: Images.image6 },
+	{ category: "shoulder", image: Images.image7 },
+	{ category: "shoulder", image: Images.image8 },
+
 ];
 
 export const Gallery = ({ selected, setSelected }) => {
@@ -23,7 +26,7 @@ export const Gallery = ({ selected, setSelected }) => {
 			</div>
 			<div className="columns-2 sm:columns-2 md:columns-3 lg:columns-4 gap-4 space-y-4 p-4">
 				{list.map((item, id) => (
-					<img className=" rounded-md" key={id} src={item.image} alt={item} />
+					<img className=" rounded-md shadow-lg shadow-black" key={id} src={item.image} alt={item} />
 				))}
 			</div>
 		</div>

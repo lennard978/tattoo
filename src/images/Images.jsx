@@ -5,6 +5,9 @@ const Images = {
 	image4: new URL("../../public/images/Liza4.jpg", import.meta.url).href,
 	image5: new URL("../../public/images/Liza5.jpg", import.meta.url).href,
 	image6: new URL("../../public/images/Liza6.jpg", import.meta.url).href,
+	image7: new URL("../../public/images/Liza7.jpg", import.meta.url).href,
+	image8: new URL("../../public/images/Liza8.jpg", import.meta.url).href,
+
 };
 
 export default Images;

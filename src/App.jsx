@@ -20,12 +20,7 @@ function App() {
       <div>
         <h1 className=" text-3xl text-center pb-4 pt-16 font-OpenSans">About me</h1>
         <p className="p-2 pb-10 font-OpenSans">
-          Im your tattoo artist Yeli. Im in love with fine line tattoos, tender
-          and elegant style. My passion is to create something beautiful in this
-          world. With your ideas and my help we can make something special here.
-          If you feel that you want to have a tattoo but still concerning on
-          which part of your body to place it or doubting with design, I’m
-          always there for you to help.
+          Welcome to my studio! I'm Yeli, a dedicated tattoo artist with a passion for creating delicate, elegant designs. My mission is to bring beauty into the world through my art. Whether you have a clear idea of the tattoo you want or need guidance on design and placement, I'm here to help you create something truly special.Together, we'll craft something unique and meaningful that you'll treasure forever.
         </p>
       </div>
       <FAQ />

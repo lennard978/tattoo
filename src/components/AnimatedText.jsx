@@ -30,7 +30,7 @@ export const AnimatedText = ({ text }) => {
 									{char}
 								</motion.span>
 							))}
-							<span className=" inline-block">&nbsp;</span>
+							{/* <span className=" inline-block">&nbsp;</span> */}
 						</span>
 					))}
 				</span>

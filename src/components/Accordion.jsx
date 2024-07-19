@@ -16,7 +16,7 @@ export const Accordion = ({ i, expanded, setExpanded, title, description }) => {
 		setRot(isOpen ? "hidden" : "visible");
 	};
 	return (
-		<div className=" flex flex-col justify-between px-2 py-4 cursor-pointer border-[1px] rounded-md border-black mx-2 mb-2">
+		<div className=" flex flex-col justify-between px-2 py-4 cursor-pointer border-[1px] rounded-md  mx-2 mb-2 shadow-sm shadow-gray-300">
 			<motion.div initial={false} onClick={combine}>
 				<div className=" flex justify-center">
 					{/* <div className=" justify-center flex items-center mx-2 ">

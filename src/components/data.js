@@ -29,4 +29,14 @@ export const data = [
 		image: new URL("../../public/images/Liza6.jpg", import.meta.url).href,
 		tags: ["First", "First", "First"],
 	},
+	{
+		id: 7,
+		image: new URL("../../public/images/Liza7.jpg", import.meta.url).href,
+		tags: ["First", "First", "First"],
+	},
+	{
+		id: 8,
+		image: new URL("../../public/images/Liza8.jpg", import.meta.url).href,
+		tags: ["First", "First", "First"],
+	},
 ];
